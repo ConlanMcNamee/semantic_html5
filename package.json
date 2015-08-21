@@ -1,0 +1,29 @@
+{
+  "name": "semantic_html5",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/app.jsx -o build/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConlanMcNamee/semantic_html5.git"
+  },
+  "author": "Conlan McNamee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConlanMcNamee/semantic_html5/issues"
+  },
+  "homepage": "https://github.com/ConlanMcNamee/semantic_html5#readme",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
+  },
+  "browserify": {
+    "transform": [
+    "reactify"]
+  }
+}
